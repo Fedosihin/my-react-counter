@@ -8,9 +8,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>{state}</h1>
-        <button onClick={()=>setState(state+1)}>+</button>
-        <button onClick={()=>setState(state-1)}>-</button>
+        <h1>Счетчик: {state}</h1>
+        <button onClick={()=>setState(state + 1)}>Добавить</button>
+        <button onClick={()=>setState(state - 1)}>Уменьшить</button>
       </header>
     </div>
   );
